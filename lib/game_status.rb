@@ -34,3 +34,7 @@ end
 def full?(board)
   !board.any? {|spot| spot == " "}
 end
+
+def draw?(board)
+  !won?(board) && full?(board)
+end
