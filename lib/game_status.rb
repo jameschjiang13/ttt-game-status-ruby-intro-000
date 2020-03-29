@@ -42,3 +42,11 @@ end
 def over?(board)
   draw?(board) || won?(board) || full?(board)
 end
+
+def winner(board)
+    if over?(board) && won?(board)
+      won?(board)
+      puts "#{position_1}"
+    else
+      false
+      
