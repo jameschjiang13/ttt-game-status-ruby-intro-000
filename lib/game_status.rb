@@ -49,6 +49,6 @@ def winner(board)
   if over?(board) && won?(board)
 
   else
-    false
+    retuen false
   end
 end
