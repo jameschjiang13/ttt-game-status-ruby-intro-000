@@ -32,5 +32,5 @@ def won?(board)
 end
 
 def full?(board)
-  !board.any? {|spot| spot = " "}
+  !board.any? {|spot| spot == " "}
 end
