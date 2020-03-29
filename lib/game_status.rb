@@ -44,8 +44,10 @@ def over?(board)
 end
 
 def winner(board)
-    if over?(board) && won?(board)
-      won?(board)
-      puts "#{position_1}"
-    else
-      false
+  if over?(board) && won?(board)
+    won?(board)
+    puts "#{position_1}"
+  else
+    false
+  end
+end
