@@ -33,5 +33,5 @@ end
 
 def full?(board)
   board.none? do |spot|
-    spot == " "
+    spot != " "
 end
