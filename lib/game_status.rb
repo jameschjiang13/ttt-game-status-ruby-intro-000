@@ -47,7 +47,7 @@ end
 
 def winner(board)
   if over?(board) && won?(board)
-    return "#{won?(board)[1]}"
+    return "#{board[won?(board)[1]]}"
   else
   end
 end
