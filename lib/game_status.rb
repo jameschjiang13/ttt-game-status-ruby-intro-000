@@ -49,4 +49,3 @@ def winner(board)
       puts "#{position_1}"
     else
       false
-      
