@@ -32,6 +32,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.none? do |spot| 
+  board.none? do |spot|
     spot == " "
 end
