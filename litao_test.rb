@@ -25,3 +25,5 @@ def won?(board)
   end
   return false
 end
+
+puts won?(board)
